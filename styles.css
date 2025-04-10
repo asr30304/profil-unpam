@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradasi biru laut */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: blue;
+}
+
+.tagline {
+    font-style: italic;
+    color: black;
+    margin-top: 5px;
+}
+
+/* Sections */
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: black;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Video */
+.video-section {
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
